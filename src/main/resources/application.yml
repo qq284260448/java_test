@@ -1,0 +1,16 @@
+
+
+spring:
+  redis:
+    host: 10.32.64.13
+    port: 6379
+    password: 11
+    database: 0
+
+
+  application:
+    name: SentinelAnno
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:9000
